@@ -20,8 +20,8 @@ require (
 	github.com/blevesearch/bleve_index_api v1.3.2
 	github.com/boxes-ltd/imaging v1.7.5
 	github.com/bufbuild/protovalidate-go v0.8.0
-	github.com/caddyserver/caddy/v2 v2.11.2
-	github.com/caddyserver/certmagic v0.25.2
+	github.com/caddyserver/caddy/v2 v2.11.4
+	github.com/caddyserver/certmagic v0.25.3
 	github.com/cskr/pubsub v1.0.2
 	github.com/disintegration/imageorient v0.0.0-20180920195336-8147d86e83ec
 	github.com/dsoprea/go-exif/v3 v3.0.1
@@ -129,22 +129,22 @@ require (
 	go.etcd.io/bbolt v1.4.3
 	go.etcd.io/etcd/client/v3 v3.6.5
 	go.mongodb.org/mongo-driver v1.17.9
-	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.63.0
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.65.0
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.67.0
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.68.0
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.63.0
 	go.opentelemetry.io/otel v1.45.0
-	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.40.0
+	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.43.0
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetrichttp v1.43.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.45.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.45.0
-	go.opentelemetry.io/otel/exporters/prometheus v0.62.0
-	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.40.0
+	go.opentelemetry.io/otel/exporters/prometheus v0.65.0
+	go.opentelemetry.io/otel/exporters/stdout/stdouttrace v1.43.0
 	go.opentelemetry.io/otel/metric v1.45.0
 	go.opentelemetry.io/otel/sdk v1.45.0
 	go.opentelemetry.io/otel/sdk/metric v1.45.0
 	go.opentelemetry.io/otel/trace v1.45.0
 	go.uber.org/multierr v1.11.0
-	go.uber.org/zap v1.27.1
+	go.uber.org/zap v1.28.0
 	gocloud.dev v0.45.0
 	gocloud.dev/pubsub/rabbitpubsub v0.45.0
 	golang.org/x/crypto v0.55.0
@@ -181,7 +181,7 @@ require (
 require (
 	al.essio.dev/pkg/shellescape v1.5.1 // indirect
 	cel.dev/expr v0.25.2 // indirect
-	cloud.google.com/go/auth v0.18.2 // indirect
+	cloud.google.com/go/auth v0.20.0 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.8 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
 	code.dny.dev/ssrf v0.2.0 // indirect
@@ -192,7 +192,7 @@ require (
 	github.com/BurntSushi/toml v1.6.0 // indirect
 	github.com/ClickHouse/ch-go v0.68.0 // indirect
 	github.com/ClickHouse/clickhouse-go/v2 v2.40.3 // indirect
-	github.com/DeRuina/timberjack v1.3.9 // indirect
+	github.com/DeRuina/timberjack v1.4.2 // indirect
 	github.com/KimMachineGun/automemlimit v0.7.5 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
@@ -202,7 +202,7 @@ require (
 	github.com/RoaringBitmap/roaring/v2 v2.10.0 // indirect
 	github.com/agoda-com/opentelemetry-logs-go v0.5.0 // indirect
 	github.com/alecthomas/chroma v0.10.0 // indirect
-	github.com/alecthomas/chroma/v2 v2.23.1 // indirect
+	github.com/alecthomas/chroma/v2 v2.24.1 // indirect
 	github.com/alecthomas/participle v0.2.1 // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/andybalholm/cascadia v1.3.3 // indirect
@@ -259,7 +259,7 @@ require (
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/disintegration/gift v1.1.2 // indirect
 	github.com/djherbis/atime v1.0.0 // indirect
-	github.com/dlclark/regexp2 v1.11.5 // indirect
+	github.com/dlclark/regexp2 v1.12.0 // indirect
 	github.com/dsoprea/go-exif/v2 v2.0.0-20230826092837-6579e82b732d // indirect
 	github.com/dsoprea/go-iptc v0.0.0-20200610044640-bc9ca208b413 // indirect
 	github.com/dsoprea/go-logging v0.0.0-20200710184922-b02d349568dd // indirect
@@ -324,15 +324,15 @@ require (
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/golang/snappy v1.0.0 // indirect
-	github.com/google/cel-go v0.27.0 // indirect
+	github.com/google/cel-go v0.28.1 // indirect
 	github.com/google/certificate-transparency-go v1.1.8-0.20240110162603-74a5dd331745 // indirect
 	github.com/google/gnostic-models v0.7.0 // indirect
 	github.com/google/go-tpm v0.9.8 // indirect
 	github.com/google/go-tspi v0.3.0 // indirect
 	github.com/google/pprof v0.0.0-20250923004556-9e5a51aed1e8 // indirect
 	github.com/google/s2a-go v0.1.9 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.3.14 // indirect
-	github.com/googleapis/gax-go/v2 v2.18.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.3.15 // indirect
+	github.com/googleapis/gax-go/v2 v2.22.0 // indirect
 	github.com/gopherjs/gopherjs v1.17.2 // indirect
 	github.com/gorilla/css v1.0.1 // indirect
 	github.com/gorilla/websocket v1.5.4-0.20250319132907-e064f32e3674 // indirect
@@ -378,7 +378,7 @@ require (
 	github.com/jtolds/gls v4.20.0+incompatible // indirect
 	github.com/julienschmidt/httprouter v1.3.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
-	github.com/klauspost/compress v1.18.4 // indirect
+	github.com/klauspost/compress v1.18.6 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/klauspost/crc32 v1.3.0 // indirect
 	github.com/klauspost/pgzip v1.2.6 // indirect
@@ -438,7 +438,7 @@ require (
 	github.com/philhofer/fwd v1.2.0 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
 	github.com/pierrec/lz4/v4 v4.1.22 // indirect
-	github.com/pires/go-proxyproto v0.11.0 // indirect
+	github.com/pires/go-proxyproto v0.12.0 // indirect
 	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
@@ -466,7 +466,7 @@ require (
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
 	github.com/sirupsen/logrus v1.9.4 // indirect
 	github.com/slackhq/nebula v1.10.3 // indirect
-	github.com/smallstep/certificates v0.30.0 // indirect
+	github.com/smallstep/certificates v0.30.2 // indirect
 	github.com/smallstep/cli-utils v0.12.2 // indirect
 	github.com/smallstep/go-attestation v0.4.4-0.20241119153605-2306d5b464ca // indirect
 	github.com/smallstep/linkedca v0.25.0 // indirect
@@ -509,33 +509,33 @@ require (
 	github.com/youmark/pkcs8 v0.0.0-20240726163527-a2c0da244d78 // indirect
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
 	github.com/yudai/pp v2.0.1+incompatible // indirect
-	github.com/yuin/goldmark v1.7.16 // indirect
+	github.com/yuin/goldmark v1.8.2 // indirect
 	github.com/yuin/goldmark-highlighting/v2 v2.0.0-20230729083705-37449abec8cc // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	github.com/zeebo/blake3 v0.2.4 // indirect
 	go.etcd.io/etcd/api/v3 v3.6.5 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.6.5 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
-	go.opentelemetry.io/contrib/bridges/prometheus v0.65.0 // indirect
-	go.opentelemetry.io/contrib/exporters/autoexport v0.65.0 // indirect
+	go.opentelemetry.io/contrib/bridges/prometheus v0.68.0 // indirect
+	go.opentelemetry.io/contrib/exporters/autoexport v0.68.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.63.0 // indirect
-	go.opentelemetry.io/contrib/propagators/autoprop v0.65.0 // indirect
-	go.opentelemetry.io/contrib/propagators/aws v1.40.0 // indirect
-	go.opentelemetry.io/contrib/propagators/b3 v1.40.0 // indirect
-	go.opentelemetry.io/contrib/propagators/jaeger v1.40.0 // indirect
-	go.opentelemetry.io/contrib/propagators/ot v1.40.0 // indirect
+	go.opentelemetry.io/contrib/propagators/autoprop v0.68.0 // indirect
+	go.opentelemetry.io/contrib/propagators/aws v1.43.0 // indirect
+	go.opentelemetry.io/contrib/propagators/b3 v1.43.0 // indirect
+	go.opentelemetry.io/contrib/propagators/jaeger v1.43.0 // indirect
+	go.opentelemetry.io/contrib/propagators/ot v1.43.0 // indirect
 	go.opentelemetry.io/contrib/samplers/jaegerremote v0.32.0 // indirect
 	go.opentelemetry.io/otel/exporters/jaeger v1.17.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploggrpc v0.21.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlplog/otlploghttp v0.21.0 // indirect
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.45.0 // indirect
 	go.opentelemetry.io/otel/exporters/stdout/stdoutlog v0.21.0 // indirect
-	go.opentelemetry.io/otel/exporters/stdout/stdoutmetric v1.40.0 // indirect
+	go.opentelemetry.io/otel/exporters/stdout/stdoutmetric v1.43.0 // indirect
 	go.opentelemetry.io/otel/exporters/zipkin v1.45.0 // indirect
 	go.opentelemetry.io/otel/log v0.21.0 // indirect
 	go.opentelemetry.io/otel/sdk/log v0.21.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.11.0 // indirect
-	go.step.sm/crypto v0.77.1 // indirect
+	go.step.sm/crypto v0.81.0 // indirect
 	go.uber.org/automaxprocs v1.6.0 // indirect
 	go.uber.org/zap/exp v0.3.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
@@ -547,7 +547,7 @@ require (
 	golang.org/x/term v0.45.0 // indirect
 	golang.org/x/tools v0.48.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
-	google.golang.org/api v0.271.0 // indirect
+	google.golang.org/api v0.277.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260803160001-6ac0973c030d // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
@@ -559,10 +559,10 @@ require (
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20250910181357-589584f1c912 // indirect
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4 // indirect
-	modernc.org/libc v1.70.0 // indirect
+	modernc.org/libc v1.72.0 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
-	modernc.org/sqlite v1.46.2 // indirect
+	modernc.org/sqlite v1.49.1 // indirect
 	sigs.k8s.io/json v0.0.0-20250730193827-2d320260d730 // indirect
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.2-0.20260122202528-d9cc6641c482 // indirect
